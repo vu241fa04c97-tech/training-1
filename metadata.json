@@ -1,0 +1,6 @@
+{
+  "name": "FitTrack",
+  "description": "Simple and attractive fitness companion website featuring weekly workout plans, exercise guides, balanced nutrition meal plans, and personal fitness profiles.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

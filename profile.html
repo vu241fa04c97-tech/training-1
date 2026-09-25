@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>FitTrack - Athlete Profile</title>
+    <meta name="description" content="View your personal fitness profile including name, goals, fitness level, workout days, and daily water hydration targets." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <a href="index.html" class="brand">
+          <div class="brand-icon">
+            <svg fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          Fit<span>Track</span>
+        </a>
+        <nav>
+          <ul class="nav-links">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li><a href="workouts.html" class="nav-link">Workouts</a></li>
+            <li><a href="exercises.html" class="nav-link">Exercises</a></li>
+            <li><a href="nutrition.html" class="nav-link">Nutrition</a></li>
+            <li><a href="profile.html" class="nav-link active">Profile</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+      <div class="container">
+        <!-- Page Header -->
+        <div class="page-header">
+          <span class="kicker">Personal Fitness ID</span>
+          <h1>Athlete Profile</h1>
+          <p>
+            Review your static fitness parameters, weekly training commitments, and hydration milestones.
+          </p>
+        </div>
+
+        <div class="profile-wrapper">
+          <!-- Main Profile Card -->
+          <div class="profile-card">
+            <!-- Header with Avatar -->
+            <div class="profile-header">
+              <div class="profile-avatar">
+                AJ
+              </div>
+              <div class="profile-intro">
+                <h2>Alex Johnson</h2>
+                <p>FitTrack Active Member &bull; Since Jan 2026</p>
+                <div style="margin-top: 0.5rem;">
+                  <span class="badge badge-green">Member in Good Standing</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Profile Attributes Requested in Prompt -->
+            <div class="profile-details-grid">
+              <!-- 1. Name -->
+              <div class="profile-data-box">
+                <div class="profile-data-label">Name</div>
+                <div class="profile-data-val">Alex Johnson</div>
+              </div>
+
+              <!-- 2. Goal -->
+              <div class="profile-data-box">
+                <div class="profile-data-label">Fitness Goal</div>
+                <div class="profile-data-val">Build Lean Muscle</div>
+              </div>
+
+              <!-- 3. Fitness Level -->
+              <div class="profile-data-box">
+                <div class="profile-data-label">Fitness Level</div>
+                <div class="profile-data-val">Intermediate</div>
+              </div>
+
+              <!-- 4. Workout Days -->
+              <div class="profile-data-box">
+                <div class="profile-data-label">Workout Days</div>
+                <div class="profile-data-val">5 Days / Week</div>
+              </div>
+
+              <!-- 5. Daily Water Goal -->
+              <div class="profile-data-box">
+                <div class="profile-data-label">Daily Water Goal</div>
+                <div class="profile-data-val">3.0 Liters (8 Glasses)</div>
+              </div>
+
+              <!-- Bonus Complementary Data Point: Current Streak -->
+              <div class="profile-data-box">
+                <div class="profile-data-label">Active Streak</div>
+                <div class="profile-data-val" style="color: #22c55e;">14 Consecutive Days</div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Secondary Summary Cards -->
+          <div class="profile-extras-grid">
+            <div class="profile-subcard">
+              <h3>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                Weekly Routine Summary
+              </h3>
+              <p>
+                Scheduled for Monday (Chest), Tuesday (Legs), Wednesday (Abs), Friday (Arms), and Saturday (Cardio). Thursday is active rest and Sunday is conditioning.
+              </p>
+              <div style="margin-top: 1rem;">
+                <a href="workouts.html" class="btn btn-secondary" style="padding: 0.4rem 0.9rem; font-size: 0.85rem;">View Plan &rarr;</a>
+              </div>
+            </div>
+
+            <div class="profile-subcard">
+              <h3>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
+                </svg>
+                Hydration &amp; Nutrition Target
+              </h3>
+              <p>
+                Drinking 3.0 liters per day with a 2,500 kcal maintenance baseline. Balanced macronutrient target: 40% clean carbs, 30% protein, and 30% healthy fats.
+              </p>
+              <div style="margin-top: 1rem;">
+                <a href="nutrition.html" class="btn btn-secondary" style="padding: 0.4rem 0.9rem; font-size: 0.85rem;">Meal Ideas &rarr;</a>
+              </div>
+            </div>
+          </div>
+
+          <!-- Motivational Quote Card -->
+          <div class="tip-box" style="margin-top: 2rem;">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#22c55e" stroke-width="2">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+            <p>
+              <strong>Daily Athlete Creed:</strong> &ldquo;Discipline is choosing between what you want now and what you want most.&rdquo;
+              Keep showing up every day!
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-content">
+          <div>
+            <div class="footer-brand">Fit<span>Track</span></div>
+            <p class="footer-desc">
+              A simple, clean fitness companion to empower your daily strength and wellness routines.
+            </p>
+          </div>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="workouts.html">Workouts</a></li>
+            <li><a href="exercises.html">Exercises</a></li>
+            <li><a href="nutrition.html">Nutrition</a></li>
+            <li><a href="profile.html">Profile</a></li>
+          </ul>
+        </div>
+        <div class="footer-bottom">
+          &copy; 2026 FitTrack. Simple, clean fitness companion.
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
